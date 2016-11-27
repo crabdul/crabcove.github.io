@@ -25,9 +25,9 @@ body {
 }
 
 a {
-  color: #8085C1;
   text-decoration: none;
   border: none;
+  color: firebrick
 }
 
 a img {
@@ -78,11 +78,10 @@ a:hover {
   line-height: 1.25em;
 }
 
-h1 {
+h1.title {
   display: inline-block;
   text-align: center;
   line-height: 25px;
-  color: red;
 }
 
 .posts {
