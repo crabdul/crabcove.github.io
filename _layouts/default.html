@@ -26,15 +26,13 @@
       <div class="sidebar" id="sidebar">
         <div class="header">
           <h1 class="title"><a href="http://crabcove.co.uk">crabcove</a></h1>
-<!--          <span class="tagline">crabcove</span>  -->
         </div>
         <div class="posts">
           <ul class="posts-list">
             {% for post in site.posts %}
               <li class="post-link">
                 <a class="post-title" href="{{ post.url }}">
-                  <span class="post-date">{{ post.date | date_to_string }}</span>
-<!--                  {{ post.title }} -->
+                  {{ post.date | date_to_string }}
                 </a>
               </li>
             {% endfor %}
