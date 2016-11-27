@@ -3,7 +3,7 @@
   <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Flex - {{ page.title }}</title>
+      <title>crabcove - {{ page.title }}</title>
       <meta name="viewport" content="width=device-width">
 
       <!-- syntax highlighting CSS -->
@@ -18,13 +18,15 @@
       <!-- Google Fonts -->
       <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,700' rel='stylesheet' type='text/css'>
+      <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+      
   </head>
   <body>
     <div class="site">
       <div class="sidebar" id="sidebar">
         <div class="header">
-          <h1 class="title"><a href="/"><img id="logo" src="/images/logo.png"></a></h1>
-          <span class="tagline">A responsive Jekyll theme</span>
+          <h1 class="title"><a href="http://crabcove.co.uk">crabcove</a></h1>
+<!--          <span class="tagline">crabcove</span>  -->
         </div>
         <div class="posts">
           <ul class="posts-list">
@@ -32,7 +34,7 @@
               <li class="post-link">
                 <a class="post-title" href="{{ post.url }}">
                   <span class="post-date">{{ post.date | date_to_string }}</span>
-                  {{ post.title }}
+<!--                  {{ post.title }} -->
                 </a>
               </li>
             {% endfor %}
@@ -40,9 +42,8 @@
         </div>
         <div class="footer">
           <span id="footer-links">
+            <span class="separator">&bull;</span>
             <a href="" class="footer-link">About</a> <span class="separator">&bull;</span>
-            <a href="" class="footer-link">Twitter</a> <span class="separator">&bull;</span>
-            <a href="" class="footer-link">GitHub</a>
           </span>
         </div>
       </div>

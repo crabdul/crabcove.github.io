@@ -18,7 +18,7 @@ html, body {
 body {
   color: #4a4a4a;
   background-color: #fafbfc;
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: 'Bungee', cursive;
   font-weight: 400;
   font-size: 0.85em;
   overflow: hidden;
@@ -140,7 +140,7 @@ a:hover {
 #title {
   color: #4a4a4a;
   margin-bottom: 0.35em;
-  font-size: 3em;
+  font-size: 1.5em;
   line-height: 40px;
   text-transform: uppercase;
 }
@@ -288,4 +288,14 @@ a:hover {
   margin-top: 1.25em;
   font-size: 0.95em;
   color: #777;
+}
+
+/*****************************************************************************/
+/*
+/* Gifs
+/*
+/*****************************************************************************/
+
+#gif {
+  
 }
