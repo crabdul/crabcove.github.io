@@ -33,7 +33,8 @@
             {% for post in site.posts %}
               <li class="post-link">
                 <a class="post-title" href="{{ post.url }}">
-                  {{ post.date | date_to_string }}
+                    {{ post.title }}
+<!--                  {{ post.date | date_to_string }} -->
                 </a>
               </li>
             {% endfor %}
